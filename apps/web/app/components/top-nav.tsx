@@ -1,5 +1,3 @@
-"use client";
-
 export function TopNav() {
   return (
     <header className="flex shrink-0 items-center justify-between bg-canvas-night px-5">
