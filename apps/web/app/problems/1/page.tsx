@@ -1,11 +1,11 @@
 import { TopNav } from "@/components/top-nav";
-import { ProblemPanel } from "@/components/problem-panel";
+import { Workspace } from "@/components/workspace";
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex h-full flex-col">
       <TopNav />
-      <ProblemPanel />
+      <Workspace />
     </div>
   );
 }
